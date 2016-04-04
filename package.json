@@ -1,0 +1,38 @@
+{
+  "name": "local-redux-state",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hankmccoy/local-redux-state.git"
+  },
+  "author": "Thomas Beirne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hankmccoy/local-redux-state/issues"
+  },
+  "homepage": "https://github.com/hankmccoy/local-redux-state#readme",
+  "peerDependencies": {
+    "react": "^0.14.8",
+    "react-redux": "^4.4.1",
+    "recompose": "^0.15.1",
+    "redux": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-eslint": "^6.0.2",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "eslint": "^2.6.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3",
+    "rollup": "^0.25.7",
+    "rollup-plugin-babel": "^2.4.0"
+  }
+}
